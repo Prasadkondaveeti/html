@@ -1,0 +1,43 @@
+body{
+ margin: 0;
+  
+}   
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+   display: flex;
+   list-style-type: none;
+   justify-content:space-between;
+   gap: 25px;
+   box-align: center;
+   text-anchor: blue;
+}
+.main_content{
+    p{
+        display: flex;
+        background-image: url("lion.jpg");
+        background-repeat: 3;
+  
+  
+    }
+}
+.content{
+   
+    color: aqua;
+   
+}
+.footer{
+    display: flex; 
+   
+    
+    justify-content: space-between;
+    .address{
+    display: flex; 
+    border-width: 2px;
+    color: rgb(85, 42, 165);
+    }
+}
